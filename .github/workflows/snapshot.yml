@@ -1,0 +1,48 @@
+name: Daily SDR Snapshot
+
+# Runs Mo–Fr at 05:45 UTC (= 07:45 Berlin CEST). The Claude Code routine
+# `Daily SDR Performance Briefing` fires at 06:00 UTC (08:00 Berlin) — gives
+# us 15 minutes of slack to refresh and push the snapshot JSON.
+on:
+  schedule:
+    - cron: '45 5 * * 1-5'
+  workflow_dispatch:  # manual trigger for testing
+
+permissions:
+  contents: write  # to commit + push the snapshot file back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch summary from qualification-dashboard
+        env:
+          API_KEY: ${{ secrets.DAILY_SUMMARY_API_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          # Fetch JSON. Use --fail to error on HTTP 4xx/5xx so the action exits non-zero.
+          curl --fail --silent --show-error --max-time 60 \
+            -H "Authorization: Bearer ${API_KEY}" \
+            "https://qualification-dashboard-nine.vercel.app/api/sdr-daily-summary" \
+            -o data/snapshot.json
+          # Validate it's actually JSON
+          python3 -c "import json,sys; data=json.load(open('data/snapshot.json')); print(f\"OK — {len(data.get('sdrs',[]))} SDRs · {len(data.get('aes',[]))} AEs · vortag={data.get('meta',{}).get('vortag')}\")"
+          # Pretty-format for human-readable diff history
+          python3 -c "import json; d=json.load(open('data/snapshot.json')); open('data/snapshot.json','w').write(json.dumps(d, indent=2, ensure_ascii=False))"
+
+      - name: Commit + push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshot.json
+          if git diff --cached --quiet; then
+            echo "No changes — snapshot identical to previous"
+          else
+            TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git commit -m "chore(snapshot): refresh ${TS}"
+            git push
+          fi
