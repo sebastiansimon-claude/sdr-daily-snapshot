@@ -1,50 +1,102 @@
 {
   "ae_total": {
     "accepted_vortag": 1,
-    "accepted_wtd": 0,
-    "held_vortag": 4,
-    "held_wtd": 0,
-    "rate_vortag": 0.25,
-    "rate_wtd": null
+    "accepted_wtd": 1,
+    "held_vortag": 1,
+    "held_wtd": 1,
+    "rate_vortag": 1.0,
+    "rate_wtd": 1.0
   },
   "aes": [
     {
-      "accepted_vortag": 0,
-      "accepted_wtd": 0,
-      "held_vortag": 3,
-      "held_wtd": 0,
+      "accepted_vortag": 1,
+      "accepted_wtd": 1,
+      "held_vortag": 1,
+      "held_wtd": 1,
       "name": "Lucas Wos",
-      "not_accepted_vortag": 3,
+      "not_accepted_vortag": 0,
       "not_accepted_wtd": 0,
-      "rate_vortag": 0.0,
-      "rate_wtd": null
+      "rate_vortag": 1.0,
+      "rate_wtd": 1.0
     },
     {
-      "accepted_vortag": 1,
+      "accepted_vortag": 0,
       "accepted_wtd": 0,
-      "held_vortag": 1,
+      "held_vortag": 0,
       "held_wtd": 0,
       "name": "Maximilian Dekorsy",
       "not_accepted_vortag": 0,
       "not_accepted_wtd": 0,
-      "rate_vortag": 1.0,
+      "rate_vortag": null,
       "rate_wtd": null
     }
   ],
   "errors": [],
   "meta": {
-    "generated_at": "2026-06-01T10:57:45.902643+00:00",
+    "generated_at": "2026-06-02T09:51:00.651353+00:00",
     "iso_week": 23,
-    "today": "2026-06-01",
-    "vortag": "2026-05-29",
-    "vortag_weekday": "Fri",
-    "weekday": "Mon",
-    "wtd_empty": true,
-    "wtd_end": null,
-    "wtd_start": null,
-    "wtd_working_days": 0
+    "today": "2026-06-02",
+    "vortag": "2026-06-01",
+    "vortag_weekday": "Mon",
+    "weekday": "Tue",
+    "wtd_empty": false,
+    "wtd_end": "2026-06-01",
+    "wtd_start": "2026-06-01",
+    "wtd_working_days": 1
   },
   "sdrs": [
+    {
+      "ap_to_d_vortag": 0.125,
+      "ap_to_d_wtd": 0.125,
+      "ap_vortag": 8,
+      "ap_wtd": 8,
+      "c_to_ap_vortag": 0.13333333333333333,
+      "c_to_ap_wtd": 0.13333333333333333,
+      "calls_vortag": 60,
+      "calls_wtd": 60,
+      "disco_vortag": 1,
+      "disco_wtd": 1,
+      "name": "Luis Feldhäuser"
+    },
+    {
+      "ap_to_d_vortag": null,
+      "ap_to_d_wtd": null,
+      "ap_vortag": 0,
+      "ap_wtd": 0,
+      "c_to_ap_vortag": 0.0,
+      "c_to_ap_wtd": 0.0,
+      "calls_vortag": 3,
+      "calls_wtd": 3,
+      "disco_vortag": 0,
+      "disco_wtd": 0,
+      "name": "Chiara Lageveen"
+    },
+    {
+      "ap_to_d_vortag": 0.4,
+      "ap_to_d_wtd": 0.4,
+      "ap_vortag": 5,
+      "ap_wtd": 5,
+      "c_to_ap_vortag": 0.1,
+      "c_to_ap_wtd": 0.1,
+      "calls_vortag": 50,
+      "calls_wtd": 50,
+      "disco_vortag": 2,
+      "disco_wtd": 2,
+      "name": "Moritz Hoffmann"
+    },
+    {
+      "ap_to_d_vortag": 0.0,
+      "ap_to_d_wtd": 0.0,
+      "ap_vortag": 5,
+      "ap_wtd": 5,
+      "c_to_ap_vortag": 0.10416666666666667,
+      "c_to_ap_wtd": 0.10416666666666667,
+      "calls_vortag": 48,
+      "calls_wtd": 48,
+      "disco_vortag": 0,
+      "disco_wtd": 0,
+      "name": "Martin Ortiz Lopez"
+    },
     {
       "ap_to_d_vortag": null,
       "ap_to_d_wtd": null,
@@ -56,58 +108,6 @@
       "calls_wtd": 0,
       "disco_vortag": 0,
       "disco_wtd": 0,
-      "name": "Luis Feldhäuser"
-    },
-    {
-      "ap_to_d_vortag": 0.25,
-      "ap_to_d_wtd": null,
-      "ap_vortag": 4,
-      "ap_wtd": 0,
-      "c_to_ap_vortag": 0.09523809523809523,
-      "c_to_ap_wtd": null,
-      "calls_vortag": 42,
-      "calls_wtd": 0,
-      "disco_vortag": 1,
-      "disco_wtd": 0,
-      "name": "Chiara Lageveen"
-    },
-    {
-      "ap_to_d_vortag": 0.0,
-      "ap_to_d_wtd": null,
-      "ap_vortag": 2,
-      "ap_wtd": 0,
-      "c_to_ap_vortag": 0.03225806451612903,
-      "c_to_ap_wtd": null,
-      "calls_vortag": 62,
-      "calls_wtd": 0,
-      "disco_vortag": 0,
-      "disco_wtd": 0,
-      "name": "Moritz Hoffmann"
-    },
-    {
-      "ap_to_d_vortag": 1.0,
-      "ap_to_d_wtd": null,
-      "ap_vortag": 1,
-      "ap_wtd": 0,
-      "c_to_ap_vortag": 0.030303030303030304,
-      "c_to_ap_wtd": null,
-      "calls_vortag": 33,
-      "calls_wtd": 0,
-      "disco_vortag": 1,
-      "disco_wtd": 0,
-      "name": "Martin Ortiz Lopez"
-    },
-    {
-      "ap_to_d_vortag": 0.6666666666666666,
-      "ap_to_d_wtd": null,
-      "ap_vortag": 3,
-      "ap_wtd": 0,
-      "c_to_ap_vortag": 0.08571428571428572,
-      "c_to_ap_wtd": null,
-      "calls_vortag": 35,
-      "calls_wtd": 0,
-      "disco_vortag": 2,
-      "disco_wtd": 0,
       "name": "Liliane Feller"
     }
   ],
@@ -115,18 +115,18 @@
     "ap_to_disco": 0.15,
     "connect_rate": 0.15,
     "daily_team_discos": 4,
-    "wtd_team_discos": null
+    "wtd_team_discos": 4
   },
   "team_total": {
-    "ap_to_d_vortag": 0.4,
-    "ap_to_d_wtd": null,
-    "ap_vortag": 10,
-    "ap_wtd": 0,
-    "c_to_ap_vortag": 0.05813953488372093,
-    "c_to_ap_wtd": null,
-    "calls_vortag": 172,
-    "calls_wtd": 0,
-    "disco_vortag": 4,
-    "disco_wtd": 0
+    "ap_to_d_vortag": 0.16666666666666666,
+    "ap_to_d_wtd": 0.16666666666666666,
+    "ap_vortag": 18,
+    "ap_wtd": 18,
+    "c_to_ap_vortag": 0.11180124223602485,
+    "c_to_ap_wtd": 0.11180124223602485,
+    "calls_vortag": 161,
+    "calls_wtd": 161,
+    "disco_vortag": 3,
+    "disco_wtd": 3
   }
 }
