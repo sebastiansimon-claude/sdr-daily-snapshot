@@ -1,28 +1,28 @@
 {
   "ae_total": {
-    "accepted_vortag": 2,
+    "accepted_vortag": 0,
     "accepted_wtd": 0,
-    "held_vortag": 4,
-    "held_wtd": 0,
-    "rate_vortag": 0.5,
-    "rate_wtd": null
+    "held_vortag": 1,
+    "held_wtd": 1,
+    "rate_vortag": 0.0,
+    "rate_wtd": 0.0
   },
   "aes": [
     {
-      "accepted_vortag": 2,
+      "accepted_vortag": 0,
       "accepted_wtd": 0,
-      "held_vortag": 2,
-      "held_wtd": 0,
+      "held_vortag": 1,
+      "held_wtd": 1,
       "name": "Lucas Wos",
       "not_accepted_vortag": 0,
       "not_accepted_wtd": 0,
-      "rate_vortag": 1.0,
+      "rate_vortag": null,
       "rate_wtd": null
     },
     {
       "accepted_vortag": 0,
       "accepted_wtd": 0,
-      "held_vortag": 2,
+      "held_vortag": 0,
       "held_wtd": 0,
       "name": "Maximilian Dekorsy",
       "not_accepted_vortag": 0,
@@ -33,16 +33,16 @@
   ],
   "errors": [],
   "meta": {
-    "generated_at": "2026-08-03T08:49:33.611998+00:00",
+    "generated_at": "2026-08-04T08:06:34.973098+00:00",
     "iso_week": 32,
-    "today": "2026-08-03",
-    "vortag": "2026-07-31",
-    "vortag_weekday": "Fri",
-    "weekday": "Mon",
-    "wtd_empty": true,
-    "wtd_end": null,
-    "wtd_start": null,
-    "wtd_working_days": 0
+    "today": "2026-08-04",
+    "vortag": "2026-08-03",
+    "vortag_weekday": "Mon",
+    "weekday": "Tue",
+    "wtd_empty": false,
+    "wtd_end": "2026-08-03",
+    "wtd_start": "2026-08-03",
+    "wtd_working_days": 1
   },
   "sdrs": [
     {
@@ -60,41 +60,41 @@
     },
     {
       "ap_to_d_vortag": 0.0,
-      "ap_to_d_wtd": null,
-      "ap_vortag": 3,
-      "ap_wtd": 0,
-      "c_to_ap_vortag": 0.16666666666666666,
-      "c_to_ap_wtd": null,
-      "calls_vortag": 18,
-      "calls_wtd": 0,
+      "ap_to_d_wtd": 0.0,
+      "ap_vortag": 1,
+      "ap_wtd": 1,
+      "c_to_ap_vortag": 0.047619047619047616,
+      "c_to_ap_wtd": 0.047619047619047616,
+      "calls_vortag": 21,
+      "calls_wtd": 21,
       "disco_vortag": 0,
       "disco_wtd": 0,
       "name": "Chiara Lageveen"
     },
     {
-      "ap_to_d_vortag": 0.1111111111111111,
+      "ap_to_d_vortag": null,
       "ap_to_d_wtd": null,
-      "ap_vortag": 9,
+      "ap_vortag": 0,
       "ap_wtd": 0,
-      "c_to_ap_vortag": 0.1875,
+      "c_to_ap_vortag": null,
       "c_to_ap_wtd": null,
-      "calls_vortag": 48,
+      "calls_vortag": 0,
       "calls_wtd": 0,
-      "disco_vortag": 1,
+      "disco_vortag": 0,
       "disco_wtd": 0,
       "name": "Moritz Hoffmann"
     },
     {
-      "ap_to_d_vortag": 0.2,
-      "ap_to_d_wtd": null,
-      "ap_vortag": 5,
-      "ap_wtd": 0,
-      "c_to_ap_vortag": 0.1282051282051282,
-      "c_to_ap_wtd": null,
-      "calls_vortag": 39,
-      "calls_wtd": 0,
-      "disco_vortag": 1,
-      "disco_wtd": 0,
+      "ap_to_d_vortag": 0.5,
+      "ap_to_d_wtd": 0.5,
+      "ap_vortag": 4,
+      "ap_wtd": 4,
+      "c_to_ap_vortag": 0.05714285714285714,
+      "c_to_ap_wtd": 0.05714285714285714,
+      "calls_vortag": 70,
+      "calls_wtd": 70,
+      "disco_vortag": 2,
+      "disco_wtd": 2,
       "name": "Martin Ortiz Lopez"
     },
     {
@@ -115,18 +115,18 @@
     "ap_to_disco": 0.15,
     "connect_rate": 0.15,
     "daily_team_discos": 4,
-    "wtd_team_discos": null
+    "wtd_team_discos": 4
   },
   "team_total": {
-    "ap_to_d_vortag": 0.11764705882352941,
-    "ap_to_d_wtd": null,
-    "ap_vortag": 17,
-    "ap_wtd": 0,
-    "c_to_ap_vortag": 0.1619047619047619,
-    "c_to_ap_wtd": null,
-    "calls_vortag": 105,
-    "calls_wtd": 0,
+    "ap_to_d_vortag": 0.4,
+    "ap_to_d_wtd": 0.4,
+    "ap_vortag": 5,
+    "ap_wtd": 5,
+    "c_to_ap_vortag": 0.054945054945054944,
+    "c_to_ap_wtd": 0.054945054945054944,
+    "calls_vortag": 91,
+    "calls_wtd": 91,
     "disco_vortag": 2,
-    "disco_wtd": 0
+    "disco_wtd": 2
   }
 }
