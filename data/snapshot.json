@@ -1,74 +1,74 @@
 {
   "ae_total": {
-    "accepted_vortag": 1,
-    "accepted_wtd": 3,
-    "held_vortag": 5,
-    "held_wtd": 11,
-    "rate_vortag": 0.2,
-    "rate_wtd": 0.2727272727272727
+    "accepted_vortag": 0,
+    "accepted_wtd": 5,
+    "held_vortag": 1,
+    "held_wtd": 12,
+    "rate_vortag": 0.0,
+    "rate_wtd": 0.4166666666666667
   },
   "aes": [
     {
-      "accepted_vortag": 1,
+      "accepted_vortag": 0,
       "accepted_wtd": 3,
-      "held_vortag": 3,
-      "held_wtd": 7,
+      "held_vortag": 1,
+      "held_wtd": 8,
       "name": "Lucas Wos",
-      "not_accepted_vortag": 2,
+      "not_accepted_vortag": 0,
       "not_accepted_wtd": 4,
-      "rate_vortag": 0.3333333333333333,
+      "rate_vortag": null,
       "rate_wtd": 0.42857142857142855
     },
     {
       "accepted_vortag": 0,
-      "accepted_wtd": 0,
-      "held_vortag": 2,
+      "accepted_wtd": 2,
+      "held_vortag": 0,
       "held_wtd": 4,
       "name": "Maximilian Dekorsy",
       "not_accepted_vortag": 0,
-      "not_accepted_wtd": 0,
+      "not_accepted_wtd": 2,
       "rate_vortag": null,
-      "rate_wtd": null
+      "rate_wtd": 0.5
     }
   ],
   "errors": [],
   "meta": {
-    "generated_at": "2026-08-06T08:04:44.384165+00:00",
+    "generated_at": "2026-08-07T06:51:14.877503+00:00",
     "iso_week": 32,
-    "today": "2026-08-06",
-    "vortag": "2026-08-05",
-    "vortag_weekday": "Wed",
-    "weekday": "Thu",
+    "today": "2026-08-07",
+    "vortag": "2026-08-06",
+    "vortag_weekday": "Thu",
+    "weekday": "Fri",
     "wtd_empty": false,
-    "wtd_end": "2026-08-05",
+    "wtd_end": "2026-08-06",
     "wtd_start": "2026-08-03",
-    "wtd_working_days": 3
+    "wtd_working_days": 4
   },
   "sdrs": [
     {
-      "ap_to_d_vortag": 0.0,
-      "ap_to_d_wtd": 0.0,
+      "ap_to_d_vortag": 0.1,
+      "ap_to_d_wtd": 0.05,
       "ap_vortag": 10,
-      "ap_wtd": 10,
-      "c_to_ap_vortag": 0.14492753623188406,
-      "c_to_ap_wtd": 0.14492753623188406,
-      "calls_vortag": 69,
-      "calls_wtd": 69,
-      "disco_vortag": 0,
-      "disco_wtd": 0,
+      "ap_wtd": 20,
+      "c_to_ap_vortag": 0.15151515151515152,
+      "c_to_ap_wtd": 0.14814814814814814,
+      "calls_vortag": 66,
+      "calls_wtd": 135,
+      "disco_vortag": 1,
+      "disco_wtd": 1,
       "name": "Luis Feldhäuser"
     },
     {
-      "ap_to_d_vortag": 0.2,
-      "ap_to_d_wtd": 0.18181818181818182,
-      "ap_vortag": 5,
-      "ap_wtd": 11,
-      "c_to_ap_vortag": 0.10416666666666667,
-      "c_to_ap_wtd": 0.09322033898305085,
-      "calls_vortag": 48,
-      "calls_wtd": 118,
+      "ap_to_d_vortag": 0.3333333333333333,
+      "ap_to_d_wtd": 0.21428571428571427,
+      "ap_vortag": 3,
+      "ap_wtd": 14,
+      "c_to_ap_vortag": 0.10344827586206896,
+      "c_to_ap_wtd": 0.09523809523809523,
+      "calls_vortag": 29,
+      "calls_wtd": 147,
       "disco_vortag": 1,
-      "disco_wtd": 2,
+      "disco_wtd": 3,
       "name": "Chiara Lageveen"
     },
     {
@@ -115,18 +115,18 @@
     "ap_to_disco": 0.15,
     "connect_rate": 0.15,
     "daily_team_discos": 4,
-    "wtd_team_discos": 12
+    "wtd_team_discos": 16
   },
   "team_total": {
-    "ap_to_d_vortag": 0.06666666666666667,
-    "ap_to_d_wtd": 0.23076923076923078,
-    "ap_vortag": 15,
-    "ap_wtd": 26,
-    "c_to_ap_vortag": 0.1282051282051282,
-    "c_to_ap_wtd": 0.08024691358024691,
-    "calls_vortag": 117,
-    "calls_wtd": 324,
-    "disco_vortag": 1,
-    "disco_wtd": 6
+    "ap_to_d_vortag": 0.15384615384615385,
+    "ap_to_d_wtd": 0.20512820512820512,
+    "ap_vortag": 13,
+    "ap_wtd": 39,
+    "c_to_ap_vortag": 0.1368421052631579,
+    "c_to_ap_wtd": 0.09307875894988067,
+    "calls_vortag": 95,
+    "calls_wtd": 419,
+    "disco_vortag": 2,
+    "disco_wtd": 8
   }
 }
