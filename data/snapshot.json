@@ -1,29 +1,29 @@
 {
   "ae_total": {
-    "accepted_vortag": 0,
-    "accepted_wtd": 0,
+    "accepted_vortag": 1,
+    "accepted_wtd": 1,
     "held_vortag": 3,
-    "held_wtd": 3,
-    "rate_vortag": 0.0,
-    "rate_wtd": 0.0
+    "held_wtd": 6,
+    "rate_vortag": 0.3333333333333333,
+    "rate_wtd": 0.16666666666666666
   },
   "aes": [
     {
-      "accepted_vortag": 0,
-      "accepted_wtd": 0,
+      "accepted_vortag": 1,
+      "accepted_wtd": 1,
       "held_vortag": 2,
-      "held_wtd": 2,
+      "held_wtd": 4,
       "name": "Lucas Wos",
       "not_accepted_vortag": 1,
-      "not_accepted_wtd": 1,
-      "rate_vortag": 0.0,
-      "rate_wtd": 0.0
+      "not_accepted_wtd": 2,
+      "rate_vortag": 0.5,
+      "rate_wtd": 0.3333333333333333
     },
     {
       "accepted_vortag": 0,
       "accepted_wtd": 0,
       "held_vortag": 1,
-      "held_wtd": 1,
+      "held_wtd": 2,
       "name": "Maximilian Dekorsy",
       "not_accepted_vortag": 0,
       "not_accepted_wtd": 0,
@@ -33,16 +33,16 @@
   ],
   "errors": [],
   "meta": {
-    "generated_at": "2026-09-08T10:04:16.030103+00:00",
+    "generated_at": "2026-09-09T10:05:23.953853+00:00",
     "iso_week": 37,
-    "today": "2026-09-08",
-    "vortag": "2026-09-07",
-    "vortag_weekday": "Mon",
-    "weekday": "Tue",
+    "today": "2026-09-09",
+    "vortag": "2026-09-08",
+    "vortag_weekday": "Tue",
+    "weekday": "Wed",
     "wtd_empty": false,
-    "wtd_end": "2026-09-07",
+    "wtd_end": "2026-09-08",
     "wtd_start": "2026-09-07",
-    "wtd_working_days": 1
+    "wtd_working_days": 2
   },
   "sdrs": [
     {
@@ -59,42 +59,42 @@
       "name": "Luis Feldhäuser"
     },
     {
-      "ap_to_d_vortag": 1.0,
-      "ap_to_d_wtd": 1.0,
-      "ap_vortag": 1,
-      "ap_wtd": 1,
-      "c_to_ap_vortag": 0.03571428571428571,
-      "c_to_ap_wtd": 0.03571428571428571,
-      "calls_vortag": 28,
-      "calls_wtd": 28,
-      "disco_vortag": 1,
+      "ap_to_d_vortag": 0.0,
+      "ap_to_d_wtd": 0.1,
+      "ap_vortag": 9,
+      "ap_wtd": 10,
+      "c_to_ap_vortag": 0.17647058823529413,
+      "c_to_ap_wtd": 0.12658227848101267,
+      "calls_vortag": 51,
+      "calls_wtd": 79,
+      "disco_vortag": 0,
       "disco_wtd": 1,
       "name": "Chiara Lageveen"
     },
     {
-      "ap_to_d_vortag": 0.0,
-      "ap_to_d_wtd": 0.0,
-      "ap_vortag": 2,
-      "ap_wtd": 2,
-      "c_to_ap_vortag": 0.037037037037037035,
-      "c_to_ap_wtd": 0.037037037037037035,
-      "calls_vortag": 54,
-      "calls_wtd": 54,
-      "disco_vortag": 0,
-      "disco_wtd": 0,
+      "ap_to_d_vortag": 0.2222222222222222,
+      "ap_to_d_wtd": 0.18181818181818182,
+      "ap_vortag": 9,
+      "ap_wtd": 11,
+      "c_to_ap_vortag": 0.125,
+      "c_to_ap_wtd": 0.0873015873015873,
+      "calls_vortag": 72,
+      "calls_wtd": 126,
+      "disco_vortag": 2,
+      "disco_wtd": 2,
       "name": "Moritz Hoffmann"
     },
     {
-      "ap_to_d_vortag": 0.125,
-      "ap_to_d_wtd": 0.125,
-      "ap_vortag": 8,
-      "ap_wtd": 8,
-      "c_to_ap_vortag": 0.11267605633802817,
-      "c_to_ap_wtd": 0.11267605633802817,
-      "calls_vortag": 71,
-      "calls_wtd": 71,
+      "ap_to_d_vortag": 0.14285714285714285,
+      "ap_to_d_wtd": 0.13333333333333333,
+      "ap_vortag": 7,
+      "ap_wtd": 15,
+      "c_to_ap_vortag": 0.0945945945945946,
+      "c_to_ap_wtd": 0.10344827586206896,
+      "calls_vortag": 74,
+      "calls_wtd": 145,
       "disco_vortag": 1,
-      "disco_wtd": 1,
+      "disco_wtd": 2,
       "name": "Martin Ortiz Lopez"
     },
     {
@@ -115,18 +115,18 @@
     "ap_to_disco": 0.15,
     "connect_rate": 0.15,
     "daily_team_discos": 4,
-    "wtd_team_discos": 4
+    "wtd_team_discos": 8
   },
   "team_total": {
-    "ap_to_d_vortag": 0.18181818181818182,
-    "ap_to_d_wtd": 0.18181818181818182,
-    "ap_vortag": 11,
-    "ap_wtd": 11,
-    "c_to_ap_vortag": 0.0718954248366013,
-    "c_to_ap_wtd": 0.0718954248366013,
-    "calls_vortag": 153,
-    "calls_wtd": 153,
-    "disco_vortag": 2,
-    "disco_wtd": 2
+    "ap_to_d_vortag": 0.12,
+    "ap_to_d_wtd": 0.1388888888888889,
+    "ap_vortag": 25,
+    "ap_wtd": 36,
+    "c_to_ap_vortag": 0.12690355329949238,
+    "c_to_ap_wtd": 0.10285714285714286,
+    "calls_vortag": 197,
+    "calls_wtd": 350,
+    "disco_vortag": 3,
+    "disco_wtd": 5
   }
 }
